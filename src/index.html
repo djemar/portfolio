@@ -1,17 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html class="material-theme scroll-smooth md-bg">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <link href="/src/css/material.css" rel="stylesheet" />
+    <link href="/src/css/styles.css" rel="stylesheet" />
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
   </head>
+  <body class="mx-96">
+    <header class="sticky top-0 md-surface">
+      <nav class="navbar h-14 flex justify-between items-center">
+        <ul class="flex space-x-4">
+          <li class="navlink" onclick="activateNav(this)"><a href="#Home">Home</a></li>
+          <li class="navlink" onclick="activateNav(this)"><a href="#AboutMe">About Me</a></li>
+          <li class="navlink" onclick="activateNav(this)"><a href="#Projects">Projects</a></li>
+          <li class="navlink" onclick="activateNav(this)"><a href="#Contacts">Contacts</a></li>
+        </ul>
+        <button class="flex rounded-lg md-btn-secondary font-medium text-sm px-2 py-1 items-center">
+          <i data-feather="sun" class="h-4 mr-1"></i><span>Day</span>
+        </button>
+      </nav>
+    </header>
+    <div class="main">
+      <section id="Home" class="text-3xl text-white font-bold content scroll-mt-14">Hello world!</section>
+      <section id="AboutMe" class="text-3xl text-white font-bold content scroll-mt-14">Hello world!</section>
+      <section id="Projects" class="text-3xl text-white font-bold content scroll-mt-14">Hello world!</section>
+      <section id="Contacts" class="text-3xl text-white font-bold content scroll-mt-14">Hello world!</section>
+    </div>
     <script>
       feather.replace();
     </script>
+    <script src="/src/js/script.js"></script>
   </body>
 </html>
