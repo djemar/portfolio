@@ -32,14 +32,6 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
 }
 
-.md-bg-secondary-90 {
-  background-color: var(--md-ref-palette-secondary-90);
-  color: var(--md-sys-color-on-secondary-dark);
-}
-.md-bg-secondary-90:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0 0);
-}
-
 /* Generated Styles - Do Not Edit */
 
 .display1 {
@@ -462,6 +454,14 @@
   a.navlink:hover {
     background-color: var(--md-ref-palette-secondary-95);
   }
+
+  .md-bg-secondary-90 {
+    background-color: var(--md-ref-palette-secondary-90);
+    color: var(--md-sys-color-on-secondary-dark);
+  }
+  .md-bg-secondary-90:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0 0);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -528,5 +528,13 @@
 
   a.navlink:hover {
     background-color: var(--md-ref-palette-secondary-20);
+  }
+
+  .md-bg-secondary-90 {
+    background-color: var(--md-ref-palette-secondary-30);
+    color: var(--md-sys-color-on-secondary-light);
+  }
+  .md-bg-secondary-90:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0 0);
   }
 }
