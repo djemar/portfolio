@@ -19,6 +19,7 @@
 
 .md-btn-primary {
   background-color: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
 }
 .md-btn-primary:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
@@ -26,6 +27,7 @@
 
 .md-btn-secondary {
   background-color: var(--md-sys-color-secondary);
+  color: var(--md-sys-color-on-secondary);
 }
 .md-btn-secondary:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
