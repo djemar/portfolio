@@ -8,16 +8,6 @@
   cursor: pointer;
 }
 
-a.navlink.active {
-  color: var(--md-sys-color-primary);
-  font-weight: var(--md-sys-typescale-title-medium-weight);
-  background-color: var(--md-ref-palette-secondary-95);
-}
-
-a.navlink:hover {
-  background-color: var(--md-ref-palette-secondary-95);
-}
-
 .md-bg {
   background-color: var(--md-sys-color-background);
 }
@@ -462,6 +452,16 @@ a.navlink:hover {
     --md-sys-color-inverse-surface: var(--md-sys-color-inverse-surface-dark);
     --md-sys-color-inverse-on-surface: var(--md-sys-color-inverse-on-surface-dark);
   }
+
+  a.navlink.active {
+    color: var(--md-sys-color-primary);
+    font-weight: var(--md-sys-typescale-title-medium-weight);
+    background-color: var(--md-ref-palette-secondary-95);
+  }
+
+  a.navlink:hover {
+    background-color: var(--md-ref-palette-secondary-95);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -518,5 +518,15 @@ a.navlink:hover {
     --md-sys-color-on-surface-variant: var(--md-sys-color-on-surface-variant-light);
     --md-sys-color-inverse-surface: var(--md-sys-color-inverse-surface-light);
     --md-sys-color-inverse-on-surface: var(--md-sys-color-inverse-on-surface-light);
+  }
+
+  a.navlink.active {
+    color: var(--md-sys-color-primary);
+    font-weight: var(--md-sys-typescale-title-medium-weight);
+    background-color: var(--md-ref-palette-secondary-20);
+  }
+
+  a.navlink:hover {
+    background-color: var(--md-ref-palette-secondary-20);
   }
 }
