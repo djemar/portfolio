@@ -3,10 +3,19 @@
 */
 .navlink {
   color: var(--md-sys-color-secondary);
+  padding: 8px;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .navlink.active {
   color: var(--md-sys-color-primary);
+  font-weight: var(--md-sys-typescale-title-medium-weight);
+  background-color: var(--md-ref-palette-secondary-95);
+}
+
+.navlink:hover {
+  background-color: var(--md-ref-palette-secondary-95);
 }
 
 .md-bg {
@@ -347,39 +356,39 @@
   --md-ref-palette-error-10: #410001;
   --md-ref-palette-error-0: #000000;
   --md-sys-typescale-display-1-family: Inter;
-  --md-sys-typescale-display-1-weight: Regular;
+  --md-sys-typescale-display-1-weight: 400;
   --md-sys-typescale-display-large-family: Inter;
-  --md-sys-typescale-display-large-weight: Regular;
+  --md-sys-typescale-display-large-weight: 400;
   --md-sys-typescale-display-medium-family: Inter;
-  --md-sys-typescale-display-medium-weight: Regular;
+  --md-sys-typescale-display-medium-weight: 400;
   --md-sys-typescale-display-small-family: Inter;
-  --md-sys-typescale-display-small-weight: Regular;
+  --md-sys-typescale-display-small-weight: 400;
   --md-sys-typescale-headline-large-family: Inter;
-  --md-sys-typescale-headline-large-weight: Regular;
+  --md-sys-typescale-headline-large-weight: 400;
   --md-sys-typescale-headline-medium-family: Inter;
-  --md-sys-typescale-headline-medium-weight: Regular;
+  --md-sys-typescale-headline-medium-weight: 400;
   --md-sys-typescale-headline-small-family: Inter;
-  --md-sys-typescale-headline-small-weight: Regular;
+  --md-sys-typescale-headline-small-weight: 400;
   --md-sys-typescale-title-large-family: Inter;
-  --md-sys-typescale-title-large-weight: Regular;
+  --md-sys-typescale-title-large-weight: 400;
   --md-sys-typescale-headline-6-family: Inter;
-  --md-sys-typescale-headline-6-weight: Regular;
+  --md-sys-typescale-headline-6-weight: 400;
   --md-sys-typescale-title-medium-family: Inter;
-  --md-sys-typescale-title-medium-weight: Medium;
+  --md-sys-typescale-title-medium-weight: 500;
   --md-sys-typescale-title-small-family: Inter;
-  --md-sys-typescale-title-small-weight: Medium;
+  --md-sys-typescale-title-small-weight: 500;
   --md-sys-typescale-label-large-family: Inter;
-  --md-sys-typescale-label-large-weight: Medium;
+  --md-sys-typescale-label-large-weight: 500;
   --md-sys-typescale-body-large-family: Inter;
-  --md-sys-typescale-body-large-weight: Regular;
+  --md-sys-typescale-body-large-weight: 400;
   --md-sys-typescale-body-medium-family: Inter;
-  --md-sys-typescale-body-medium-weight: Regular;
+  --md-sys-typescale-body-medium-weight: 400;
   --md-sys-typescale-body-small-family: Inter;
-  --md-sys-typescale-body-small-weight: Regular;
+  --md-sys-typescale-body-small-weight: 400;
   --md-sys-typescale-label-medium-family: Inter;
-  --md-sys-typescale-label-medium-weight: Medium;
+  --md-sys-typescale-label-medium-weight: 500;
   --md-sys-typescale-label-small-family: Inter;
-  --md-sys-typescale-label-small-weight: Medium;
+  --md-sys-typescale-label-small-weight: 500;
   --md-sys-typescale-display-1-size: 64rem;
   --md-sys-typescale-display-large-size: 57rem;
   --md-sys-typescale-display-medium-size: 45rem;
