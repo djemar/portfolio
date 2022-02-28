@@ -8,13 +8,13 @@
   cursor: pointer;
 }
 
-.navlink.active {
+a.navlink.active {
   color: var(--md-sys-color-primary);
   font-weight: var(--md-sys-typescale-title-medium-weight);
   background-color: var(--md-ref-palette-secondary-95);
 }
 
-.navlink:hover {
+a.navlink:hover {
   background-color: var(--md-ref-palette-secondary-95);
 }
 
