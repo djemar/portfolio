@@ -5,5 +5,8 @@
   "scripts": {
     "start": "python -m http.server",
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.7.0"
   }
 }
