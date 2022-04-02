@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
   </head>
-  <body class="md:mx-0 xl:mx-56 2xl:mx-96">
-    <header class="sticky top-0 md-surface px-5 md:px-5 lg:px-0">
+  <body class="md:mx-20 xl:mx-56 2xl:mx-96">
+    <header class="sticky top-0 md-surface px-5 py-2">
       <nav class="navbar h-14 flex justify-between items-center">
         <ul class="flex space-x-4">
           <li><a onclick="activateNav(this)" href="#Home" class="navlink transition-all active">Home</a></li>
@@ -20,14 +20,23 @@
           <li><a onclick="activateNav(this)" href="#Projects" class="navlink transition-all">Projects</a></li>
           <li><a onclick="activateNav(this)" href="#Contacts" class="navlink transition-all">Contacts</a></li>
         </ul>
-        <button class="flex rounded-lg md-btn-secondary md-bg-secondary-90 font-medium text-sm px-2 py-1 items-center">
+        <button
+          id="theme-toggle"
+          class="flex rounded-lg md-btn-secondary md-bg-secondary-90 font-medium text-sm px-2 py-1 items-center"
+        >
           <i data-feather="sun" class="h-4 mr-1"></i><span>Day</span>
         </button>
       </nav>
     </header>
     <div class="main">
-      <section id="Home" class="text-3xl text-white font-bold content scroll-mt-14">Hello world!</section>
-      <section id="AboutMe" class="text-3xl text-white font-bold content scroll-mt-14">Hello world!</section>
+      <section id="Home" class="columns-2 mt-16 p-5 flex justify-between md-bg content scroll-mt-14">
+        <div>
+          <h1 class="text-2xl md:text-6xl font-medium md-text-color mb-2 md:mb-4">Diego Marino</h1>
+          <p class="text-lg md:text-3xl md-text-color mb-5 md:mb-10">Software Engineer</p>
+          <p class="text-sm md:text-lg md-text-color">Frontend/UX Engineer at Pro Logic Informatica</p>
+        </div>
+        <img src="/src/img/avatar_square.png" alt="Diego Marino" class="rounded-full h-28 w-28 md:h-48 md:w-48" />
+      </section>
       <section id="Projects" class="text-3xl text-white font-bold content scroll-mt-14">Hello world!</section>
       <section id="Contacts" class="text-3xl text-white font-bold content scroll-mt-14">Hello world!</section>
     </div>
